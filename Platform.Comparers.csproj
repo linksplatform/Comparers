@@ -4,12 +4,12 @@
     <Description>LinksPlatform's Platform.Comparers Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Comparers</AssemblyTitle>
-    <VersionPrefix>0.0.2</VersionPrefix>
+    <VersionPrefix>0.0.3</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Platform.Comparers</AssemblyName>
     <PackageId>Platform.Comparers</PackageId>
-    <PackageTags>LinksPlatform;Comparers;EqualityComparers;Comparer;GenericEqualityComparer</PackageTags>
+    <PackageTags>LinksPlatform;Comparers;Comparer</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/d65e8dd6e1b647405bc3d33687172e79b70e3435/doc/Avatar-rainbow.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/linksplatform/Comparers</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/linksplatform/Comparers/blob/master/LICENSE</PackageLicenseUrl>

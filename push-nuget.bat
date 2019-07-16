@@ -1,2 +1,6 @@
 dotnet pack -c Release
-nuget push -Source https://api.nuget.org/v3/index.json bin\Release\*.nupkg
+cd bin\Release\
+nuget push -Source https://api.nuget.org/v3/index.json *.nupkg
+del *.nupkg
+del *.snupkg
+cd ..\..

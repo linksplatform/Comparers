@@ -21,6 +21,8 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReleaseNotes>Added generic version of Comparer class.
+Issues fixes.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>

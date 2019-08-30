@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Comparers Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Comparers</AssemblyTitle>
-    <VersionPrefix>0.0.3</VersionPrefix>
+    <VersionPrefix>0.0.4</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">netstandard2.0;net461</TargetFrameworks>
     <TargetFramework Condition="'$(OS)' != 'Windows_NT'">netcoreapp2.0</TargetFramework>
@@ -22,8 +22,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageReleaseNotes>Added generic version of Comparer class.
-Issues fixes.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added support for net461 (.NET Framework 4.6.1).
+XML documentation file generation turned on.
+Travis CI connected.
+Refactoring.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+
 namespace Platform.Comparers
 {
     public class Comparer : IComparer

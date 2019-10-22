@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/home/travis/build/linksplatform/Comparers",
+  "source_base_path": "/home/runner/work/Comparers/Comparers",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "A6gDEEjd82hRMGZATPnPZg=="
+          "hash": "Q54Zw8pIUkSeHuue0meymg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Comparers.Comparer-1.html",
-          "hash": "MPFZQ7EAa8zNVNAqazHHqA=="
+          "hash": "IdkrmN+/FyXoGFeZOV4OvA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Comparers.Comparer.html",
-          "hash": "W1xfvJJQwINkGYMw1cZjXw=="
+          "hash": "I5P2REtp7yE01KwoQVpO0g=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Comparers.html",
-          "hash": "TUb5EAcQfeKV8HXVrg4/FA=="
+          "hash": "W7X9DmU06nVoUKB3nOLLLA=="
         }
       },
       "is_incremental": false,

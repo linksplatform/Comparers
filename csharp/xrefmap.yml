@@ -1,0 +1,159 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Platform.Comparers
+  name: Platform.Comparers
+  href: api/Platform.Comparers.html
+  commentId: N:Platform.Comparers
+  fullName: Platform.Comparers
+  nameWithType: Platform.Comparers
+- uid: Platform.Comparers.Comparer
+  name: Comparer
+  href: api/Platform.Comparers.Comparer.html
+  commentId: T:Platform.Comparers.Comparer
+  fullName: Platform.Comparers.Comparer
+  nameWithType: Comparer
+- uid: Platform.Comparers.Comparer.#ctor(System.Collections.IComparer)
+  name: Comparer(IComparer)
+  href: api/Platform.Comparers.Comparer.html#Platform_Comparers_Comparer__ctor_System_Collections_IComparer_
+  commentId: M:Platform.Comparers.Comparer.#ctor(System.Collections.IComparer)
+  fullName: Platform.Comparers.Comparer.Comparer(System.Collections.IComparer)
+  nameWithType: Comparer.Comparer(IComparer)
+- uid: Platform.Comparers.Comparer.#ctor(System.Func{System.Object,System.Object,System.Int32})
+  name: Comparer(Func<Object, Object, Int32>)
+  href: api/Platform.Comparers.Comparer.html#Platform_Comparers_Comparer__ctor_System_Func_System_Object_System_Object_System_Int32__
+  commentId: M:Platform.Comparers.Comparer.#ctor(System.Func{System.Object,System.Object,System.Int32})
+  name.vb: Comparer(Func(Of Object, Object, Int32))
+  fullName: Platform.Comparers.Comparer.Comparer(System.Func<System.Object, System.Object, System.Int32>)
+  fullName.vb: Platform.Comparers.Comparer.Comparer(System.Func(Of System.Object, System.Object, System.Int32))
+  nameWithType: Comparer.Comparer(Func<Object, Object, Int32>)
+  nameWithType.vb: Comparer.Comparer(Func(Of Object, Object, Int32))
+- uid: Platform.Comparers.Comparer.#ctor*
+  name: Comparer
+  href: api/Platform.Comparers.Comparer.html#Platform_Comparers_Comparer__ctor_
+  commentId: Overload:Platform.Comparers.Comparer.#ctor
+  isSpec: "True"
+  fullName: Platform.Comparers.Comparer.Comparer
+  nameWithType: Comparer.Comparer
+- uid: Platform.Comparers.Comparer.Compare(System.Object,System.Object)
+  name: Compare(Object, Object)
+  href: api/Platform.Comparers.Comparer.html#Platform_Comparers_Comparer_Compare_System_Object_System_Object_
+  commentId: M:Platform.Comparers.Comparer.Compare(System.Object,System.Object)
+  fullName: Platform.Comparers.Comparer.Compare(System.Object, System.Object)
+  nameWithType: Comparer.Compare(Object, Object)
+- uid: Platform.Comparers.Comparer.Compare*
+  name: Compare
+  href: api/Platform.Comparers.Comparer.html#Platform_Comparers_Comparer_Compare_
+  commentId: Overload:Platform.Comparers.Comparer.Compare
+  isSpec: "True"
+  fullName: Platform.Comparers.Comparer.Compare
+  nameWithType: Comparer.Compare
+- uid: Platform.Comparers.Comparer.op_Implicit(Platform.Comparers.Comparer)~System.Func{System.Object,System.Object,System.Int32}
+  name: Implicit(Comparer to Func<Object, Object, Int32>)
+  href: api/Platform.Comparers.Comparer.html#Platform_Comparers_Comparer_op_Implicit_Platform_Comparers_Comparer__System_Func_System_Object_System_Object_System_Int32_
+  commentId: M:Platform.Comparers.Comparer.op_Implicit(Platform.Comparers.Comparer)~System.Func{System.Object,System.Object,System.Int32}
+  name.vb: Widening(Comparer to Func(Of Object, Object, Int32))
+  fullName: Platform.Comparers.Comparer.Implicit(Platform.Comparers.Comparer to System.Func<System.Object, System.Object, System.Int32>)
+  fullName.vb: Platform.Comparers.Comparer.Widening(Platform.Comparers.Comparer to System.Func(Of System.Object, System.Object, System.Int32))
+  nameWithType: Comparer.Implicit(Comparer to Func<Object, Object, Int32>)
+  nameWithType.vb: Comparer.Widening(Comparer to Func(Of Object, Object, Int32))
+- uid: Platform.Comparers.Comparer.op_Implicit(System.Func{System.Object,System.Object,System.Int32})~Platform.Comparers.Comparer
+  name: Implicit(Func<Object, Object, Int32> to Comparer)
+  href: api/Platform.Comparers.Comparer.html#Platform_Comparers_Comparer_op_Implicit_System_Func_System_Object_System_Object_System_Int32___Platform_Comparers_Comparer
+  commentId: M:Platform.Comparers.Comparer.op_Implicit(System.Func{System.Object,System.Object,System.Int32})~Platform.Comparers.Comparer
+  name.vb: Widening(Func(Of Object, Object, Int32) to Comparer)
+  fullName: Platform.Comparers.Comparer.Implicit(System.Func<System.Object, System.Object, System.Int32> to Platform.Comparers.Comparer)
+  fullName.vb: Platform.Comparers.Comparer.Widening(System.Func(Of System.Object, System.Object, System.Int32) to Platform.Comparers.Comparer)
+  nameWithType: Comparer.Implicit(Func<Object, Object, Int32> to Comparer)
+  nameWithType.vb: Comparer.Widening(Func(Of Object, Object, Int32) to Comparer)
+- uid: Platform.Comparers.Comparer.op_Implicit*
+  name: Implicit
+  href: api/Platform.Comparers.Comparer.html#Platform_Comparers_Comparer_op_Implicit_
+  commentId: Overload:Platform.Comparers.Comparer.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Platform.Comparers.Comparer.Implicit
+  fullName.vb: Platform.Comparers.Comparer.Widening
+  nameWithType: Comparer.Implicit
+  nameWithType.vb: Comparer.Widening
+- uid: Platform.Comparers.Comparer`1
+  name: Comparer<T>
+  href: api/Platform.Comparers.Comparer-1.html
+  commentId: T:Platform.Comparers.Comparer`1
+  name.vb: Comparer(Of T)
+  fullName: Platform.Comparers.Comparer<T>
+  fullName.vb: Platform.Comparers.Comparer(Of T)
+  nameWithType: Comparer<T>
+  nameWithType.vb: Comparer(Of T)
+- uid: Platform.Comparers.Comparer`1.#ctor(System.Collections.Generic.IComparer{`0})
+  name: Comparer(IComparer<T>)
+  href: api/Platform.Comparers.Comparer-1.html#Platform_Comparers_Comparer_1__ctor_System_Collections_Generic_IComparer__0__
+  commentId: M:Platform.Comparers.Comparer`1.#ctor(System.Collections.Generic.IComparer{`0})
+  name.vb: Comparer(IComparer(Of T))
+  fullName: Platform.Comparers.Comparer<T>.Comparer(System.Collections.Generic.IComparer<T>)
+  fullName.vb: Platform.Comparers.Comparer(Of T).Comparer(System.Collections.Generic.IComparer(Of T))
+  nameWithType: Comparer<T>.Comparer(IComparer<T>)
+  nameWithType.vb: Comparer(Of T).Comparer(IComparer(Of T))
+- uid: Platform.Comparers.Comparer`1.#ctor(System.Func{`0,`0,System.Int32})
+  name: Comparer(Func<T, T, Int32>)
+  href: api/Platform.Comparers.Comparer-1.html#Platform_Comparers_Comparer_1__ctor_System_Func__0__0_System_Int32__
+  commentId: M:Platform.Comparers.Comparer`1.#ctor(System.Func{`0,`0,System.Int32})
+  name.vb: Comparer(Func(Of T, T, Int32))
+  fullName: Platform.Comparers.Comparer<T>.Comparer(System.Func<T, T, System.Int32>)
+  fullName.vb: Platform.Comparers.Comparer(Of T).Comparer(System.Func(Of T, T, System.Int32))
+  nameWithType: Comparer<T>.Comparer(Func<T, T, Int32>)
+  nameWithType.vb: Comparer(Of T).Comparer(Func(Of T, T, Int32))
+- uid: Platform.Comparers.Comparer`1.#ctor*
+  name: Comparer
+  href: api/Platform.Comparers.Comparer-1.html#Platform_Comparers_Comparer_1__ctor_
+  commentId: Overload:Platform.Comparers.Comparer`1.#ctor
+  isSpec: "True"
+  fullName: Platform.Comparers.Comparer<T>.Comparer
+  fullName.vb: Platform.Comparers.Comparer(Of T).Comparer
+  nameWithType: Comparer<T>.Comparer
+  nameWithType.vb: Comparer(Of T).Comparer
+- uid: Platform.Comparers.Comparer`1.Compare(`0,`0)
+  name: Compare(T, T)
+  href: api/Platform.Comparers.Comparer-1.html#Platform_Comparers_Comparer_1_Compare__0__0_
+  commentId: M:Platform.Comparers.Comparer`1.Compare(`0,`0)
+  fullName: Platform.Comparers.Comparer<T>.Compare(T, T)
+  fullName.vb: Platform.Comparers.Comparer(Of T).Compare(T, T)
+  nameWithType: Comparer<T>.Compare(T, T)
+  nameWithType.vb: Comparer(Of T).Compare(T, T)
+- uid: Platform.Comparers.Comparer`1.Compare*
+  name: Compare
+  href: api/Platform.Comparers.Comparer-1.html#Platform_Comparers_Comparer_1_Compare_
+  commentId: Overload:Platform.Comparers.Comparer`1.Compare
+  isSpec: "True"
+  fullName: Platform.Comparers.Comparer<T>.Compare
+  fullName.vb: Platform.Comparers.Comparer(Of T).Compare
+  nameWithType: Comparer<T>.Compare
+  nameWithType.vb: Comparer(Of T).Compare
+- uid: Platform.Comparers.Comparer`1.op_Implicit(Platform.Comparers.Comparer{`0})~System.Func{`0,`0,System.Int32}
+  name: Implicit(Comparer<T> to Func<T, T, Int32>)
+  href: api/Platform.Comparers.Comparer-1.html#Platform_Comparers_Comparer_1_op_Implicit_Platform_Comparers_Comparer__0___System_Func__0__0_System_Int32_
+  commentId: M:Platform.Comparers.Comparer`1.op_Implicit(Platform.Comparers.Comparer{`0})~System.Func{`0,`0,System.Int32}
+  name.vb: Widening(Comparer(Of T) to Func(Of T, T, Int32))
+  fullName: Platform.Comparers.Comparer<T>.Implicit(Platform.Comparers.Comparer<T> to System.Func<T, T, System.Int32>)
+  fullName.vb: Platform.Comparers.Comparer(Of T).Widening(Platform.Comparers.Comparer(Of T) to System.Func(Of T, T, System.Int32))
+  nameWithType: Comparer<T>.Implicit(Comparer<T> to Func<T, T, Int32>)
+  nameWithType.vb: Comparer(Of T).Widening(Comparer(Of T) to Func(Of T, T, Int32))
+- uid: Platform.Comparers.Comparer`1.op_Implicit(System.Func{`0,`0,System.Int32})~Platform.Comparers.Comparer{`0}
+  name: Implicit(Func<T, T, Int32> to Comparer<T>)
+  href: api/Platform.Comparers.Comparer-1.html#Platform_Comparers_Comparer_1_op_Implicit_System_Func__0__0_System_Int32___Platform_Comparers_Comparer__0_
+  commentId: M:Platform.Comparers.Comparer`1.op_Implicit(System.Func{`0,`0,System.Int32})~Platform.Comparers.Comparer{`0}
+  name.vb: Widening(Func(Of T, T, Int32) to Comparer(Of T))
+  fullName: Platform.Comparers.Comparer<T>.Implicit(System.Func<T, T, System.Int32> to Platform.Comparers.Comparer<T>)
+  fullName.vb: Platform.Comparers.Comparer(Of T).Widening(System.Func(Of T, T, System.Int32) to Platform.Comparers.Comparer(Of T))
+  nameWithType: Comparer<T>.Implicit(Func<T, T, Int32> to Comparer<T>)
+  nameWithType.vb: Comparer(Of T).Widening(Func(Of T, T, Int32) to Comparer(Of T))
+- uid: Platform.Comparers.Comparer`1.op_Implicit*
+  name: Implicit
+  href: api/Platform.Comparers.Comparer-1.html#Platform_Comparers_Comparer_1_op_Implicit_
+  commentId: Overload:Platform.Comparers.Comparer`1.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Platform.Comparers.Comparer<T>.Implicit
+  fullName.vb: Platform.Comparers.Comparer(Of T).Widening
+  nameWithType: Comparer<T>.Implicit
+  nameWithType.vb: Comparer(Of T).Widening

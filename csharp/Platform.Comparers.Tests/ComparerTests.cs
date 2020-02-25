@@ -8,7 +8,7 @@ namespace Platform.Comparers.Tests
         [Fact]
         public void FunctionConversionTest()
         {
-            Func<object, object, int> function = (object x, object y) => x.GetHashCode().CompareTo(y.GetHashCode();
+            Func<object, object, int> function = (object x, object y) => x.GetHashCode().CompareTo(y.GetHashCode());
             Comparer comparer = function;
             var x = new object();
             var y = new object();

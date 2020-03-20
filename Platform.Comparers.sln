@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Comparers", "cshar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Comparers.Tests", "csharp\Platform.Comparers.Tests\Platform.Comparers.Tests.csproj", "{A91D4998-C221-41C0-BD41-DD7E0244BCE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Comparers.Benchmarks", "Platform.Comparers.Benchmarks\Platform.Comparers.Benchmarks.csproj", "{30F8EC92-8252-4B98-9CD6-B588DE859989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Comparers.Benchmarks", "csharp\Platform.Comparers.Benchmarks\Platform.Comparers.Benchmarks.csproj", "{D684B20A-ECEE-436F-91E8-F96B85F7FBD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{A91D4998-C221-41C0-BD41-DD7E0244BCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A91D4998-C221-41C0-BD41-DD7E0244BCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A91D4998-C221-41C0-BD41-DD7E0244BCE6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{30F8EC92-8252-4B98-9CD6-B588DE859989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30F8EC92-8252-4B98-9CD6-B588DE859989}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30F8EC92-8252-4B98-9CD6-B588DE859989}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30F8EC92-8252-4B98-9CD6-B588DE859989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D684B20A-ECEE-436F-91E8-F96B85F7FBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D684B20A-ECEE-436F-91E8-F96B85F7FBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D684B20A-ECEE-436F-91E8-F96B85F7FBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D684B20A-ECEE-436F-91E8-F96B85F7FBD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

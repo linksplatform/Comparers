@@ -7,11 +7,11 @@
 
 LinksPlatform's Platform.Comparers Class Library.
 
-Namespace: [Platform.Comparers](https://linksplatform.github.io/Comparers/api/Platform.Comparers.html)
+Namespace: [Platform.Comparers](https://linksplatform.github.io/Comparers/csharp/api/Platform.Comparers.html)
 
 Forked from: [Konard/LinksPlatform/Platform/Platform.Helpers](https://github.com/Konard/LinksPlatform/tree/8d8eaec821eb87db00b883c0028d8ab7a1767e44/Platform/Platform.Helpers)
 
 NuGet package: [Platform.Comparers](https://www.nuget.org/packages/Platform.Comparers)
 
 ## [Documentation](https://linksplatform.github.io/Comparers)
-[PDF file](https://linksplatform.github.io/Comparers/Platform.Comparers.pdf) with code for e-readers.
+[PDF file](https://linksplatform.github.io/Comparers/csharp/Platform.Comparers.pdf) with code for e-readers.

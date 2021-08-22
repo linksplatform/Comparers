@@ -1,24 +1,97 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using BenchmarkDotNet.Attributes;
 
 namespace Platform.Comparers.Benchmarks
 {
+    /// <summary>
+    /// <para>
+    /// Represents the equality benchmarks.
+    /// </para>
+    /// <para></para>
+    /// </summary>
     [SimpleJob]
     [MemoryDiagnoser]
     public class EqualityBenchmarks
     {
+        /// <summary>
+        /// <para>
+        /// Represents the int 64 equality comparer.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <seealso cref="IEqualityComparer{ulong}"/>
         protected class UInt64EqualityComparer : IEqualityComparer<ulong>
         {
+            /// <summary>
+            /// <para>
+            /// Determines whether this instance equals.
+            /// </para>
+            /// <para></para>
+            /// </summary>
+            /// <param name="x">
+            /// <para>The .</para>
+            /// <para></para>
+            /// </param>
+            /// <param name="y">
+            /// <para>The .</para>
+            /// <para></para>
+            /// </param>
+            /// <returns>
+            /// <para>The bool</para>
+            /// <para></para>
+            /// </returns>
             public bool Equals(ulong x, ulong y) => x == y;
 
+            /// <summary>
+            /// <para>
+            /// Gets the hash code using the specified obj.
+            /// </para>
+            /// <para></para>
+            /// </summary>
+            /// <param name="obj">
+            /// <para>The obj.</para>
+            /// <para></para>
+            /// </param>
+            /// <returns>
+            /// <para>The int</para>
+            /// <para></para>
+            /// </returns>
             public int GetHashCode(ulong obj) => obj.GetHashCode();
         }
 
+        /// <summary>
+        /// <para>
+        /// The .
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private static readonly int _n = 1000000;
+        /// <summary>
+        /// <para>
+        /// The .
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private static readonly ulong _x = 10UL;
+        /// <summary>
+        /// <para>
+        /// The .
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private static readonly ulong _y = 500UL;
 
+        /// <summary>
+        /// <para>
+        /// Determines whether this instance generic wrapper around object static equals.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <returns>
+        /// <para>The result.</para>
+        /// <para></para>
+        /// </returns>
         [Benchmark]
         public bool GenericWrapperAroundObjectStaticEquals()
         {
@@ -30,6 +103,16 @@ namespace Platform.Comparers.Benchmarks
             return result;
         }
 
+        /// <summary>
+        /// <para>
+        /// Determines whether this instance generic wrapper around object member equals.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <returns>
+        /// <para>The result.</para>
+        /// <para></para>
+        /// </returns>
         [Benchmark]
         public bool GenericWrapperAroundObjectMemberEquals()
         {
@@ -41,6 +124,16 @@ namespace Platform.Comparers.Benchmarks
             return result;
         }
 
+        /// <summary>
+        /// <para>
+        /// Determines whether this instance static method wrapper around equals operator.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <returns>
+        /// <para>The result.</para>
+        /// <para></para>
+        /// </returns>
         [Benchmark]
         public bool StaticMethodWrapperAroundEqualsOperator()
         {
@@ -52,6 +145,16 @@ namespace Platform.Comparers.Benchmarks
             return result;
         }
 
+        /// <summary>
+        /// <para>
+        /// Determines whether this instance default equality comparer.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <returns>
+        /// <para>The result.</para>
+        /// <para></para>
+        /// </returns>
         [Benchmark]
         public bool DefaultEqualityComparer()
         {
@@ -64,6 +167,16 @@ namespace Platform.Comparers.Benchmarks
             return result;
         }
 
+        /// <summary>
+        /// <para>
+        /// Determines whether this instance equals method reference.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <returns>
+        /// <para>The result.</para>
+        /// <para></para>
+        /// </returns>
         [Benchmark]
         public bool EqualsMethodReference()
         {
@@ -77,6 +190,16 @@ namespace Platform.Comparers.Benchmarks
             return result;
         }
 
+        /// <summary>
+        /// <para>
+        /// Determines whether this instance interface implementation as.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <returns>
+        /// <para>The result.</para>
+        /// <para></para>
+        /// </returns>
         [Benchmark]
         public bool InterfaceImplementationAsClass()
         {
@@ -89,6 +212,16 @@ namespace Platform.Comparers.Benchmarks
             return result;
         }
 
+        /// <summary>
+        /// <para>
+        /// Determines whether this instance default comparer.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <returns>
+        /// <para>The result.</para>
+        /// <para></para>
+        /// </returns>
         [Benchmark]
         public bool DefaultComparer()
         {
@@ -101,10 +234,72 @@ namespace Platform.Comparers.Benchmarks
             return result;
         }
 
+        /// <summary>
+        /// <para>
+        /// Determines whether equals static method.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <typeparam name="T">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </typeparam>
+        /// <param name="x">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="y">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </param>
+        /// <returns>
+        /// <para>The bool</para>
+        /// <para></para>
+        /// </returns>
         private static bool EqualsStaticMethod<T>(T x, T y) => Equals(x, y);
 
+        /// <summary>
+        /// <para>
+        /// Determines whether equals member method.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <typeparam name="T">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </typeparam>
+        /// <param name="x">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="y">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </param>
+        /// <returns>
+        /// <para>The bool</para>
+        /// <para></para>
+        /// </returns>
         private static bool EqualsMemberMethod<T>(T x, T y) => x.Equals(y);
 
+        /// <summary>
+        /// <para>
+        /// Determines whether equals operator.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="x">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="y">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </param>
+        /// <returns>
+        /// <para>The bool</para>
+        /// <para></para>
+        /// </returns>
         private static bool EqualsOperator(ulong x, ulong y) => x == y;
     }
 }

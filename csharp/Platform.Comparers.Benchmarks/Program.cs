@@ -2,13 +2,7 @@ using BenchmarkDotNet.Running;
 
 namespace Platform.Comparers.Benchmarks
 {
-    /// <summary>
-    /// <para>
-    /// Represents the program.
-    /// </para>
-    /// <para></para>
-    /// </summary>
-    class Program
+    private Program
     {
         /// <summary>
         /// <para>

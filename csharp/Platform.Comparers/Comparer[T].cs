@@ -14,6 +14,12 @@ namespace Platform.Comparers
     /// <seealso cref="IComparer{T}"/>
     public class Comparer<T> : IComparer<T>
     {
+        /// <summary>
+        /// <para>
+        /// The compare.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private readonly Func<T, T, int> _compare;
         /// <summary>
         /// <para>

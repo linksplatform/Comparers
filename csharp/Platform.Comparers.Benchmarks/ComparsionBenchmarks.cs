@@ -14,6 +14,13 @@ namespace Platform.Comparers.Benchmarks
     [MemoryDiagnoser]
     public class ComparsionBenchmarks
     {
+        /// <summary>
+        /// <para>
+        /// Represents the int 64 comparer.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <seealso cref="IComparer{ulong}"/>
         private class UInt64Comparer : IComparer<ulong>
         {
             /// <summary>
@@ -36,8 +43,27 @@ namespace Platform.Comparers.Benchmarks
             /// </returns>
             public int Compare(ulong x, ulong y) => x.CompareTo(y);
         }
+
+        /// <summary>
+        /// <para>
+        /// The .
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private static readonly int _n = 1000000;
+        /// <summary>
+        /// <para>
+        /// The .
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private static readonly ulong _x = 10UL;
+        /// <summary>
+        /// <para>
+        /// The .
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private static readonly ulong _y = 500UL;
 
         /// <summary>
@@ -127,6 +153,25 @@ namespace Platform.Comparers.Benchmarks
             }
             return result;
         }
+
+        /// <summary>
+        /// <para>
+        /// Compares the x.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="x">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="y">
+        /// <para>The .</para>
+        /// <para></para>
+        /// </param>
+        /// <returns>
+        /// <para>The int</para>
+        /// <para></para>
+        /// </returns>
         private static int Compare(ulong x, ulong y) => x.CompareTo(y);
     }
 }

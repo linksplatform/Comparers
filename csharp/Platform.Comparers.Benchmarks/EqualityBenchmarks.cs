@@ -59,27 +59,8 @@ namespace Platform.Comparers.Benchmarks
             /// </returns>
             public int GetHashCode(ulong obj) => obj.GetHashCode();
         }
-
-        /// <summary>
-        /// <para>
-        /// The .
-        /// </para>
-        /// <para></para>
-        /// </summary>
         private static readonly int _n = 1000000;
-        /// <summary>
-        /// <para>
-        /// The .
-        /// </para>
-        /// <para></para>
-        /// </summary>
         private static readonly ulong _x = 10UL;
-        /// <summary>
-        /// <para>
-        /// The .
-        /// </para>
-        /// <para></para>
-        /// </summary>
         private static readonly ulong _y = 500UL;
 
         /// <summary>
@@ -233,73 +214,8 @@ namespace Platform.Comparers.Benchmarks
             }
             return result;
         }
-
-        /// <summary>
-        /// <para>
-        /// Determines whether equals static method.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        /// <typeparam name="T">
-        /// <para>The .</para>
-        /// <para></para>
-        /// </typeparam>
-        /// <param name="x">
-        /// <para>The .</para>
-        /// <para></para>
-        /// </param>
-        /// <param name="y">
-        /// <para>The .</para>
-        /// <para></para>
-        /// </param>
-        /// <returns>
-        /// <para>The bool</para>
-        /// <para></para>
-        /// </returns>
         private static bool EqualsStaticMethod<T>(T x, T y) => Equals(x, y);
-
-        /// <summary>
-        /// <para>
-        /// Determines whether equals member method.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        /// <typeparam name="T">
-        /// <para>The .</para>
-        /// <para></para>
-        /// </typeparam>
-        /// <param name="x">
-        /// <para>The .</para>
-        /// <para></para>
-        /// </param>
-        /// <param name="y">
-        /// <para>The .</para>
-        /// <para></para>
-        /// </param>
-        /// <returns>
-        /// <para>The bool</para>
-        /// <para></para>
-        /// </returns>
         private static bool EqualsMemberMethod<T>(T x, T y) => x.Equals(y);
-
-        /// <summary>
-        /// <para>
-        /// Determines whether equals operator.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        /// <param name="x">
-        /// <para>The .</para>
-        /// <para></para>
-        /// </param>
-        /// <param name="y">
-        /// <para>The .</para>
-        /// <para></para>
-        /// </param>
-        /// <returns>
-        /// <para>The bool</para>
-        /// <para></para>
-        /// </returns>
         private static bool EqualsOperator(ulong x, ulong y) => x == y;
     }
 }
